@@ -70,7 +70,7 @@ export const sendEmailOtp = async (req, res) => {
     }
 
     const otp = generateOTP();
-    // console.log(otp);
+    console.log(otp);
     
 
     if (!user) {
